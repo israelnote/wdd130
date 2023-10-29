@@ -32,7 +32,7 @@ main section {
     height: 725px;
 }
 body {
-    background-color: #6f7364;
+    background-color: #317a11;
     font-family: 'Times New Roman', Times, serif;
     margin: 0; 
     padding: 0;  
@@ -131,7 +131,7 @@ h2 {
     margin: 200px 0;
 }
 .card-img {
-    border: 5px solid black;
+    border: 1px solid black;
     transition: .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
