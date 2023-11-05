@@ -1,0 +1,62 @@
+
+#content {
+    width: 1600px;
+    margin: auto;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    background-color: #396E94;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 5px;
+    border: brown;
+}
+.header_tittle {
+    padding: 100px;
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 5em;
+}
+.logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 400px;
+    height: 400px;
+   }
+body {
+    background-color: #317a11;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif ;
+}
+.p1, .p2, .p3 {
+    font-size: 2em;
+    color: black;
+}
+.h2, .h3, .h4 {
+    background-color: white;
+    font-size: 2em;
+}
+footer {
+    background: white;
+    display: flex;
+    justify-content: space-around; 
+}
+.fq, .fh, .fc {
+    font-size: 2em;
+    padding: 150px;
+    color: black;
+
+    
+}
+nav, a:hover {
+    color: #396E94;
+    justify-content: center;
+}
+.river_utah, .river_arizona, .river_idaho {
+    border-color: brown;
+    width: 100%;
+    
+}    
