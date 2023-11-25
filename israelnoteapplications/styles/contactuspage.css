@@ -104,5 +104,8 @@ header {
     
 }
 body {
-  background-color: #51545A;
+  background-color: #11171F;
+}
+label {
+  color: white;
 }
